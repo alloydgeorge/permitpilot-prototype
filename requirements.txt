@@ -2,3 +2,7 @@ flask
 openai
 fpdf
 python-dotenv
+flask
+fpdf
+openai
+python-dotenv
