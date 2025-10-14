@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PermitPilot Result</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 3rem; background: #f5f6fa; }
+    h1 { color: #2f3640; }
+    a { color: #0097e6; }
+  </style>
+</head>
+<body>
+  <h1>Permit Recommendation</h1>
+  <p><b>Jurisdiction:</b> {{ permit.jurisdiction }}</p>
+  <p><b>Permit Type:</b> {{ parsed.project_type }}</p>
+  <p><b>Estimated Fee:</b> ${{ permit.base_fee }}</p>
+  <p><b>Details:</b> {{ permit.description }}</p>
+
+  <h3>Download your auto-generated summary:</h3>
+  <a href="/download/{{ pdf_file }}">Download PDF</a>
+
+  <br><br>
+  <a href="/">Start another project</a>
+</body>
+</html>

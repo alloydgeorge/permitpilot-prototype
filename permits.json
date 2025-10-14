@@ -1,0 +1,14 @@
+{
+  "residential_remodel": {
+    "jurisdiction": "Santa Monica",
+    "forms": ["Building Permit Application"],
+    "base_fee": 200,
+    "description": "Required for any interior remodel that changes walls, plumbing, or electrical systems."
+  },
+  "window_replacement": {
+    "jurisdiction": "Santa Monica",
+    "forms": ["Minor Alteration Permit"],
+    "base_fee": 120,
+    "description": "Required for window or door replacements that modify exterior openings."
+  }
+}
