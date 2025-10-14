@@ -6,3 +6,4 @@ flask
 fpdf
 openai
 python-dotenv
+gunicorn
